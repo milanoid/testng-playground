@@ -36,3 +36,5 @@ jobs:
           echo test, and deploy your project.
       - name: Start Selenium Grid
         run: docker-compose -f docker-compose-grid.yml up -d
+      - name: run Selenium test
+        run: mvn test -Dtest=ConferomaticWebTest#conferomaticHomePageHasH1title
