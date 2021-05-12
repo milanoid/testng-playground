@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Make it parallel" parallel="methods">
+    <test name="a name">
+        <classes>
+            <class name="tests.TestNG" />
+        </classes>
+    </test>
+</suite>
